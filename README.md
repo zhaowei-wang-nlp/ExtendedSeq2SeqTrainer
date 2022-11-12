@@ -17,6 +17,7 @@ The function `ExtendedSeq2SeqTrainer.generate` is used to decode, equivalent to 
 `fine-tune_example.py` provides an example of replacing `Seq2SeqTrainer` with `ExtendedSeq2SeqTrainer`,
 modified from the example code `run_summarization.py` [link](https://github.com/huggingface/transformers/blob/main/examples/pytorch/summarization/run_summarization.py)
 
+Search "MODIFIED:" in `fine-tune_example.py` to see how to modify your code.
 
 ## Contributing
 If you find any typo or bug, please open an issue.

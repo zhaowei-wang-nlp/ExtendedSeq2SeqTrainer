@@ -687,7 +687,7 @@ def main():
     if training_args.do_predict:
         logger.info("*** Predict ***")
 
-        # MODIFIED: use generate
+        # MODIFIED: use ExtendedSeq2SeqTrainer.generate
         predict_results = trainer.generate(
             predict_dataset, max_length=max_length, num_beams=num_beams
         )
